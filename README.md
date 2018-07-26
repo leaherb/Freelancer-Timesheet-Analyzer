@@ -53,6 +53,6 @@ Date,Customer,Category,Billable,Included,Non-Billable,Details,Start,Stop,Time,Ho
 
 Future Improvements
 -----------------
-  * Read data directly from the Excel (or other) spreadsheet, as opposed to manually converting it to CSV prior to running this Python program.
-  * Consider utilizing collections and csv.DictReader to streamline code.
+  * Read data directly from the Excel (or other) spreadsheet, as opposed to manually converting it to CSV first.
+  * Use pandas.dataframe.
   * Include generic filtering prompts instead of hard-coding.
