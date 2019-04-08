@@ -2,6 +2,8 @@
 Freelancer Timesheet Analyzer
 ==============================
 
+This project is a work in progress, not yet 'production' level.
+
 Problem
 -------
 I track my freelance work time in a spreadsheet, a row for each chunk of time I work on a customer's project. The spreadsheet contains all the time chunks for all my customers in a single sheet. 
