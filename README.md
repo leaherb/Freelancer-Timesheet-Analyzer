@@ -6,17 +6,13 @@ This project is a work in progress, not yet 'production' level.
 
 Problem
 -------
-I track my freelance work time in a spreadsheet, a row for each chunk of time I work on a customer's project. The spreadsheet contains all the time chunks for all my customers in a single sheet. 
-
-When it comes time to invoice a customer, manually filtering through the spreadsheet becomes tedious. Especially since some time is billable and some is not. I dislike manipulating "raw data", even to simply re-order records in the spreadsheet by customer name and time category, so I have to copy the spreadsheet and work on the copy. I need a better process.
-
-I could write functions in Excel to achieve my reporting needs, but I prefer to use Python so I can use the same functionality for multiple sheets.
+I use several spreadsheets to track my time: freelance work, school, and personal projects. Especially for my freelance work at invoice time, I need to be able to report how much time I spent on a particular project within a given date range. I also need to separate 'billable' from other types of work. I could use spreadsheet functions to filter and sum my time. However, I find this cumbersome and non-repeatable (I'd have to rebuild the functions in each spreadsheet). I also want to add more functionality, such as merging and analyzing data of multiple sheets.
 
 Solution
 --------
-A Python3 program that reads timesheet data, prompts for filters (e.g. Customer name), and reports billable hours.
+A Python3 program that reads timesheet data, prompts for filters (e.g. Project), and reports billable vs non-billable hours.
 
-Freelancer-Timesheet-Analyzer creates this report, plus it interactively allows you to adjust total billable hours to make invoicing easier (e.g. if you want to give a discount or add an additional hours based on whatever logic you desire). 
+Freelancer-Timesheet-Analyzer creates this report, plus it interactively allows you to adjust total billable hours to make invoicing easier (e.g. if you want to give a discount or add an additional hours). 
 
 ### This project is in its infancy. Right now, it works like this:
 
@@ -29,7 +25,7 @@ Freelancer-Timesheet-Analyzer creates this report, plus it interactively allows 
 Timesheet Requirements
 ---------------------------
 Your timesheet can contain any number of columns in any order, but needs to include these minimum columns with these column headings: 
-  * 'Customer' (string)
+  * 'Project' (string) (such as customer, class, or project name)
   * 'Date' (date string format: %mm/%dd/%yy)
   * 'Hours' (float)
 Optional:
