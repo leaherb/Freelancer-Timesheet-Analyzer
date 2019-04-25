@@ -12,15 +12,13 @@ Solution
 --------
 A Python3 program that reads timesheet data, prompts for filters (e.g. Project), and reports billable vs non-billable hours.
 
-Freelancer-Timesheet-Analyzer creates this report, plus it interactively allows you to adjust total billable hours to make invoicing easier (e.g. if you want to give a discount or add an additional hours). 
+analyzer.py creates this report, plus it interactively allows you to adjust total billable hours to make invoicing easier (e.g. if you want to give a discount or add an additional hours). 
 
 ### This project is in its infancy. Right now, it works like this:
 
   1. You record your work time in an Excel spreadsheet.
-  2. Run Freelancer-Timesheet-Analyzer. 
+  2. `python analyzer.py` 
   3. Respond to prompts for filters.
-  
-* Note: reporting functions are not yet working in version 2.
 
 Timesheet Requirements
 ---------------------------
