@@ -2,7 +2,7 @@
 Freelancer Timesheet Analyzer
 ==============================
 
-This project is a work in progress, not yet 'production' level.
+This project is a work in progress.
 
 Problem
 -------
